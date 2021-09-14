@@ -1,0 +1,76 @@
+header{
+    width : 100%;
+    height : 80px;
+    background-color: white;
+}
+
+#nav ul{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+}
+
+#MainMenu li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+#MainMenu a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans','sans-serif';
+    font-size: 1.2vw;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*add CSS to Social Media Icons*/
+
+.class {
+
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+
+}
+
+ul li{
+    
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+    cursor :pointer;
+    transition : all 0.8s ease;
+    
+}
+
+.facebook-icon{
+    color:black;
+}
+
+.instagram-icon{
+    color:black;
+}
+
+.youtube-icon{
+    color: black;
+}
+
+.flickr-icon{
+    color:black;
+}
+
+ul li:hover{
+    background-color: rgb(211, 204, 231);
+    font-size: 40px;
+}
+
+nav.socialMediaIcons{
+    padding-top: 600px;
+    padding-bottom: 150px;
+}
+ul{
+
+    display :flex;
+    justify-content: center;
+
+}
